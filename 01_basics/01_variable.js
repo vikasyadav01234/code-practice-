@@ -4,4 +4,4 @@ var accountPassword = "12345"
 accountCity = "Jaipur"
 
 //acountId = 2
-console.table([accountId, accountEmail, accountPassword, accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity]) 
