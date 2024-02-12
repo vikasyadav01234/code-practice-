@@ -20,3 +20,4 @@ const newArr = myArr.join()
 
 console.log(myArr);
 console.log(typeof newArr);
+
