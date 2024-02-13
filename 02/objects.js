@@ -2,7 +2,7 @@
 // object.create
  
 //object lterals
-const mySym = symbol("key1");
+const mySym = Symbol("key1");
 const jsUser = {
     name: "Vikas Yadav",
     lacation: "Jaipur,Rajasthan",
@@ -15,4 +15,26 @@ const jsUser = {
 
 console.log(jsUser.email);
 console.log(jsUser["email"]);
-console.log(jsUser.mySym);
+console.log(typeof jsUser[mySym]);
+
+
+jsUser.email = "Vikas@google.com";
+//Object.freeze(jsUser)
+jsUser.email="vikas@vhatgpt.com";
+console.log(jsUser.email);
+
+
+
+
+
+//functions
+
+jsUser.greeting = function(){
+    console.log("Jai Sree Ram Sabhi Ko");
+}
+jsUser.greetingtwo = function(){
+    console.log(`Jai Sree Ram Sabhi Ko ${this.email}`);
+}
+
+console.log(jsUser.greeting());
+console.log(jsUser.greetingtwo());
