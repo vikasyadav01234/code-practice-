@@ -24,3 +24,4 @@ console.log(reqularUser.fullname.username.lastname)
 
  const obj3 = Object.assign({},obj1, obj2)
  console.log(obj3);
+ 
