@@ -23,7 +23,7 @@ const user = {
 }
 
 function logd(anyobject){
-    console.log(`logginde user ${anyobject.username} and age of user is ${anyobject.age}`);
+    console.log(`login  user ${anyobject.username} and age of user is ${anyobject.age}`);
 
 }
 
