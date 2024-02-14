@@ -25,3 +25,14 @@ console.log(reqularUser.fullname.username.lastname)
  const obj3 = Object.assign({},obj1, obj2)
  console.log(obj3);
  
+ const course =  {
+    coursename: "jai sree ram",
+    price: "999",
+    courseInstructor: "hitesh"
+ }
+
+ const {courseInstructor: instructer} = course
+
+ console.log(instructer);
+
+ 
