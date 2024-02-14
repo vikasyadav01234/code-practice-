@@ -7,3 +7,16 @@ if (true){
 //console.log(a)
 //console.log(b)
 console.log(c)
+
+function one(){
+    const username = "vikas"
+    function two(){
+        const website = "Yadav"
+        console.log(username);
+    }
+    //console.log(website);
+    two()   
+}
+one()
+
+//==========
